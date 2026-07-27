@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>life.fan — privacy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#0B0C0B; --surface:#141614; --hairline:#23261F; --t1:#F2F4EF; --t2:#A7AC9F; --t3:#6E7368; --lime:#C8F751; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--bg); color:var(--t2); font:16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  main { max-width:640px; margin:0 auto; padding:64px 24px 96px; }
+  .mark { font-family:"Space Grotesk",sans-serif; font-weight:700; font-size:28px; letter-spacing:-0.045em; color:var(--t1); }
+  .mark .dot { color:var(--lime); }
+  .meta { font-family:"JetBrains Mono",monospace; font-size:11px; letter-spacing:0.22em; text-transform:uppercase; color:var(--t3); margin-top:6px; }
+  h1 { color:var(--t1); font-size:24px; margin:48px 0 8px; letter-spacing:-0.02em; }
+  h2 { color:var(--t1); font-size:17px; margin:36px 0 10px; }
+  p, li { margin-bottom:12px; }
+  ul { padding-left:20px; }
+  strong { color:var(--t1); font-weight:600; }
+  .card { background:var(--surface); border:1px solid var(--hairline); border-radius:20px; padding:24px; margin-top:20px; }
+  a { color:var(--lime); text-decoration:none; }
+  .rule { border:0; border-top:1px solid var(--hairline); margin:40px 0; }
+  .cite { font-family:"JetBrains Mono",monospace; font-size:12px; color:var(--t3); }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark">life<span class="dot">.</span>fan</div>
+  <div class="meta">A fan of your life</div>
+
+  <h1>Privacy Policy</h1>
+  <p class="cite">Effective July 26, 2026</p>
+  <p>life.fan is a personal health planning app made by Brian Deignan.</p>
+
+  <h2>What the app collects</h2>
+  <div class="card">
+    <ul>
+      <li><strong>Apple Health data</strong> (weight, body fat, heart rate variability, resting heart rate, sleep, steps, energy, and similar metrics you authorize): read on your device to display trends and compute your plan. life.fan never writes to Apple Health, and this data <strong>never leaves your device</strong>.</li>
+      <li><strong>Your plan, goals, and logs</strong> (schedules, fasting logs, meals, supplements): stored only on your device.</li>
+      <li><strong>Supplement label photos</strong>: when you use the label-scan feature, the photo is sent over an encrypted connection to our server, which uses an AI service (Anthropic's Claude) to identify and assess the product. Photos are used only to produce the assessment, are not linked to your identity, and are not used to train AI models. Everything else about scanning (text recognition) happens on your device.</li>
+    </ul>
+  </div>
+
+  <h2>What the app does not do</h2>
+  <div class="card">
+    <ul>
+      <li>No accounts, no sign-in, no advertising, no analytics SDKs, no trackers.</li>
+      <li>No sale or sharing of personal data with third parties.</li>
+      <li>Health data from Apple Health is never transmitted off your device and is never used for advertising, marketing, or data mining, in line with Apple's HealthKit guidelines.</li>
+    </ul>
+  </div>
+
+  <h2>Data deletion</h2>
+  <p>All app data lives on your device: deleting the app deletes your data. Label photos are processed transiently and are not retained by us.</p>
+
+  <h2>Contact</h2>
+  <p>Questions: <a href="mailto:admin@validationale.com">admin@validationale.com</a></p>
+
+  <hr class="rule">
+  <p class="cite">↳ life.fan — built around your life, cited to the study.</p>
+</main>
+</body>
+</html>
